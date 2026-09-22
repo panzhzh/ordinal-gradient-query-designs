@@ -1,0 +1,110 @@
+{
+  "format_version": 1,
+  "dtype": "float64",
+  "query_budget": "6d endpoints, one complete ranking",
+  "phase": 0.39269908169872414,
+  "main": {
+    "cohort": "main",
+    "targets": 768,
+    "radii": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "geometries": [
+      "staggered-cycle",
+      "staggered-two",
+      "cycle",
+      "cycle-two",
+      "frames"
+    ]
+  },
+  "independent": {
+    "cohort": "independent",
+    "targets": 128,
+    "radii": [
+      1.0,
+      10.0
+    ],
+    "geometries": [
+      "staggered-cycle",
+      "staggered-two",
+      "frames"
+    ]
+  },
+  "curvature": {
+    "cohort": "main",
+    "replicas": [
+      0,
+      1
+    ],
+    "targets": 192,
+    "radius": 1.0,
+    "gammas": [
+      0.0,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "linear_C": 10000.0
+  },
+  "random-mirrors": {
+    "cohort": "main",
+    "replicas": [
+      0,
+      1
+    ],
+    "targets": 192,
+    "radii": [
+      0.1,
+      1.0,
+      10.0
+    ]
+  },
+  "mismatch": {
+    "cohort": "robustness",
+    "targets": 192,
+    "radius": 1.0,
+    "strengths": [
+      0.0,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "repair_C": 100000.0,
+    "schedule": "dyadic"
+  },
+  "ambiguity": {
+    "pairs": 256,
+    "dimension": 8,
+    "radius": 1.0
+  },
+  "linear-calibration": {
+    "cohort": "robustness",
+    "targets": 192,
+    "gammas": [
+      0.0,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0,
+      100000.0,
+      1000000.0
+    ]
+  },
+  "statistics": {
+    "bootstrap_draws": 32768,
+    "resampling_unit": "whole target, stratified by stream, Hessian regime, and dimension",
+    "replication_confidence": 0.975,
+    "random_mirrors_confidence": 0.95,
+    "bootstrap_seed": 202609200400000
+  }
+}

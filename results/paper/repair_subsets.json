@@ -1,0 +1,137 @@
+{
+  "0.01": {
+    "targets": 192,
+    "failures": 1,
+    "feasibility_by_dimension": {
+      "10": 1.0,
+      "20": 1.0,
+      "50": 0.984375
+    },
+    "failed_direct_soft": {
+      "RMSE_degrees": 0.6677354206251902,
+      "median_degrees": 0.6677354206251902,
+      "p90_degrees": 0.6677354206251902,
+      "maximum_degrees": 0.6677354206251902
+    },
+    "failed_repair_VC": {
+      "RMSE_degrees": 0.6848944488636031,
+      "median_degrees": 0.6848944488636031,
+      "p90_degrees": 0.6848944488636031,
+      "maximum_degrees": 0.6848944488636031
+    },
+    "failed_rank": {
+      "RMSE_degrees": 7.510275980965385,
+      "median_degrees": 7.510275980965385,
+      "p90_degrees": 7.510275980965385,
+      "maximum_degrees": 7.510275980965385
+    },
+    "failed_repair_vs_rank_MSE_improvement": 0.9916835975110759,
+    "failed_repair_win_rate_vs_rank": 1.0,
+    "failed_repair_vs_direct_MSE_ratio": 1.0520550458929832,
+    "failed_repair_win_rate_vs_direct": 0.0,
+    "failed_kendall_fraction": {
+      "mean": 0.002318840579710145,
+      "median": 0.002318840579710145,
+      "p90": 0.002318840579710145,
+      "maximum": 0.002318840579710145
+    },
+    "all_kendall_fraction": {
+      "mean": 0.0011719220854451032,
+      "median": 0.0012820512820512818,
+      "p90": 0.0019586858154633092,
+      "maximum": 0.002824858757062147
+    },
+    "direct_fallback_hybrid_RMSE_degrees": 0.8848725638601841,
+    "current_repair_hybrid_RMSE_degrees": 0.8849408673584196
+  },
+  "0.03": {
+    "targets": 192,
+    "failures": 65,
+    "feasibility_by_dimension": {
+      "10": 0.984375,
+      "20": 0.984375,
+      "50": 0.015625
+    },
+    "failed_direct_soft": {
+      "RMSE_degrees": 1.6788049458911969,
+      "median_degrees": 1.6574405361333704,
+      "p90_degrees": 1.79470095706272,
+      "maximum_degrees": 1.9418819530836458
+    },
+    "failed_repair_VC": {
+      "RMSE_degrees": 1.691911782142272,
+      "median_degrees": 1.6733661616745765,
+      "p90_degrees": 1.8143047434529922,
+      "maximum_degrees": 1.9177221749445155
+    },
+    "failed_rank": {
+      "RMSE_degrees": 8.501056845157231,
+      "median_degrees": 8.107725710821034,
+      "p90_degrees": 11.226870461930158,
+      "maximum_degrees": 15.537944068500082
+    },
+    "failed_repair_vs_rank_MSE_improvement": 0.9603895670766989,
+    "failed_repair_win_rate_vs_rank": 1.0,
+    "failed_repair_vs_direct_MSE_ratio": 1.015675436748748,
+    "failed_repair_win_rate_vs_direct": 0.4,
+    "failed_kendall_fraction": {
+      "mean": 0.0032392613283185713,
+      "median": 0.0032552954292084726,
+      "p90": 0.0038037904124860644,
+      "maximum": 0.004370122630992196
+    },
+    "all_kendall_fraction": {
+      "mean": 0.002184379690929335,
+      "median": 0.0022598870056497176,
+      "p90": 0.0035429208472686734,
+      "maximum": 0.0047619047619047615
+    },
+    "direct_fallback_hybrid_RMSE_degrees": 1.8192668088911397,
+    "current_repair_hybrid_RMSE_degrees": 1.8233727815626108
+  },
+  "0.1": {
+    "targets": 192,
+    "failures": 167,
+    "feasibility_by_dimension": {
+      "10": 0.390625,
+      "20": 0.0,
+      "50": 0.0
+    },
+    "failed_direct_soft": {
+      "RMSE_degrees": 5.409837969654352,
+      "median_degrees": 5.3674765664378805,
+      "p90_degrees": 5.829264038759929,
+      "maximum_degrees": 7.5593081469238745
+    },
+    "failed_repair_VC": {
+      "RMSE_degrees": 5.416597446517422,
+      "median_degrees": 5.38143236577432,
+      "p90_degrees": 5.94497579957198,
+      "maximum_degrees": 7.212030220222687
+    },
+    "failed_rank": {
+      "RMSE_degrees": 9.563172543544356,
+      "median_degrees": 8.655665998416467,
+      "p90_degrees": 12.335762872904771,
+      "maximum_degrees": 19.67289487605754
+    },
+    "failed_repair_vs_rank_MSE_improvement": 0.6791890833843118,
+    "failed_repair_win_rate_vs_rank": 0.9940119760479041,
+    "failed_repair_vs_direct_MSE_ratio": 1.0025005184302782,
+    "failed_repair_win_rate_vs_direct": 0.47305389221556887,
+    "failed_kendall_fraction": {
+      "mean": 0.009892954512804933,
+      "median": 0.010084033613445377,
+      "p90": 0.012709067573517701,
+      "maximum": 0.01807909604519774
+    },
+    "all_kendall_fraction": {
+      "mean": 0.00912858528848873,
+      "median": 0.0096045197740113,
+      "p90": 0.012520529826351491,
+      "maximum": 0.01807909604519774
+    },
+    "direct_fallback_hybrid_RMSE_degrees": 5.3975133533100434,
+    "current_repair_hybrid_RMSE_degrees": 5.403406578969767
+  }
+}

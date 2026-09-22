@@ -1,0 +1,2110 @@
+{
+  "format_version": 1,
+  "paper_title": "Structured Queries for Ordinal Gradient Recovery under Unknown Curvature",
+  "source_commit": "6bf7a1c",
+  "groups": [
+    {
+      "cohort": "independent",
+      "id": "rep0-stream0-regime0-d10",
+      "file": "data/inputs/independent/rep0-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream0-regime0-d20",
+      "file": "data/inputs/independent/rep0-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream0-regime1-d10",
+      "file": "data/inputs/independent/rep0-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream0-regime1-d20",
+      "file": "data/inputs/independent/rep0-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream1-regime0-d10",
+      "file": "data/inputs/independent/rep0-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream1-regime0-d20",
+      "file": "data/inputs/independent/rep0-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream1-regime1-d10",
+      "file": "data/inputs/independent/rep0-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep0-stream1-regime1-d20",
+      "file": "data/inputs/independent/rep0-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream0-regime0-d10",
+      "file": "data/inputs/independent/rep1-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream0-regime0-d20",
+      "file": "data/inputs/independent/rep1-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream0-regime1-d10",
+      "file": "data/inputs/independent/rep1-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream0-regime1-d20",
+      "file": "data/inputs/independent/rep1-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream1-regime0-d10",
+      "file": "data/inputs/independent/rep1-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream1-regime0-d20",
+      "file": "data/inputs/independent/rep1-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream1-regime1-d10",
+      "file": "data/inputs/independent/rep1-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "independent",
+      "id": "rep1-stream1-regime1-d20",
+      "file": "data/inputs/independent/rep1-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime0-d10",
+      "file": "data/inputs/main/rep0-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime0-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime0-d20",
+      "file": "data/inputs/main/rep0-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime0-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime0-d50",
+      "file": "data/inputs/main/rep0-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime0-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime1-d10",
+      "file": "data/inputs/main/rep0-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime1-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime1-d20",
+      "file": "data/inputs/main/rep0-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime1-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream0-regime1-d50",
+      "file": "data/inputs/main/rep0-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream0-regime1-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime0-d10",
+      "file": "data/inputs/main/rep0-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime0-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime0-d20",
+      "file": "data/inputs/main/rep0-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime0-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime0-d50",
+      "file": "data/inputs/main/rep0-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime0-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime1-d10",
+      "file": "data/inputs/main/rep0-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime1-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime1-d20",
+      "file": "data/inputs/main/rep0-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime1-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep0-stream1-regime1-d50",
+      "file": "data/inputs/main/rep0-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep0-stream1-regime1-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime0-d10",
+      "file": "data/inputs/main/rep1-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime0-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime0-d20",
+      "file": "data/inputs/main/rep1-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime0-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime0-d50",
+      "file": "data/inputs/main/rep1-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime0-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime1-d10",
+      "file": "data/inputs/main/rep1-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime1-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime1-d20",
+      "file": "data/inputs/main/rep1-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime1-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream0-regime1-d50",
+      "file": "data/inputs/main/rep1-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream0-regime1-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime0-d10",
+      "file": "data/inputs/main/rep1-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime0-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime0-d20",
+      "file": "data/inputs/main/rep1-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime0-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime0-d50",
+      "file": "data/inputs/main/rep1-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime0-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime1-d10",
+      "file": "data/inputs/main/rep1-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime1-d10.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime1-d20",
+      "file": "data/inputs/main/rep1-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime1-d20.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep1-stream1-regime1-d50",
+      "file": "data/inputs/main/rep1-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50,
+      "random_mirror_file": "data/inputs/random-mirrors/rep1-stream1-regime1-d50.npz"
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime0-d10",
+      "file": "data/inputs/main/rep2-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime0-d20",
+      "file": "data/inputs/main/rep2-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime0-d50",
+      "file": "data/inputs/main/rep2-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime1-d10",
+      "file": "data/inputs/main/rep2-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime1-d20",
+      "file": "data/inputs/main/rep2-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream0-regime1-d50",
+      "file": "data/inputs/main/rep2-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime0-d10",
+      "file": "data/inputs/main/rep2-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime0-d20",
+      "file": "data/inputs/main/rep2-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime0-d50",
+      "file": "data/inputs/main/rep2-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime1-d10",
+      "file": "data/inputs/main/rep2-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime1-d20",
+      "file": "data/inputs/main/rep2-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep2-stream1-regime1-d50",
+      "file": "data/inputs/main/rep2-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 2,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime0-d10",
+      "file": "data/inputs/main/rep3-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime0-d20",
+      "file": "data/inputs/main/rep3-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime0-d50",
+      "file": "data/inputs/main/rep3-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime1-d10",
+      "file": "data/inputs/main/rep3-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime1-d20",
+      "file": "data/inputs/main/rep3-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream0-regime1-d50",
+      "file": "data/inputs/main/rep3-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime0-d10",
+      "file": "data/inputs/main/rep3-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime0-d20",
+      "file": "data/inputs/main/rep3-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime0-d50",
+      "file": "data/inputs/main/rep3-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime1-d10",
+      "file": "data/inputs/main/rep3-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime1-d20",
+      "file": "data/inputs/main/rep3-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep3-stream1-regime1-d50",
+      "file": "data/inputs/main/rep3-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 3,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime0-d10",
+      "file": "data/inputs/main/rep4-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime0-d20",
+      "file": "data/inputs/main/rep4-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime0-d50",
+      "file": "data/inputs/main/rep4-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime1-d10",
+      "file": "data/inputs/main/rep4-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime1-d20",
+      "file": "data/inputs/main/rep4-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream0-regime1-d50",
+      "file": "data/inputs/main/rep4-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime0-d10",
+      "file": "data/inputs/main/rep4-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime0-d20",
+      "file": "data/inputs/main/rep4-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime0-d50",
+      "file": "data/inputs/main/rep4-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime1-d10",
+      "file": "data/inputs/main/rep4-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime1-d20",
+      "file": "data/inputs/main/rep4-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep4-stream1-regime1-d50",
+      "file": "data/inputs/main/rep4-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 4,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime0-d10",
+      "file": "data/inputs/main/rep5-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime0-d20",
+      "file": "data/inputs/main/rep5-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime0-d50",
+      "file": "data/inputs/main/rep5-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime1-d10",
+      "file": "data/inputs/main/rep5-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime1-d20",
+      "file": "data/inputs/main/rep5-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream0-regime1-d50",
+      "file": "data/inputs/main/rep5-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime0-d10",
+      "file": "data/inputs/main/rep5-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime0-d20",
+      "file": "data/inputs/main/rep5-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime0-d50",
+      "file": "data/inputs/main/rep5-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime1-d10",
+      "file": "data/inputs/main/rep5-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime1-d20",
+      "file": "data/inputs/main/rep5-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep5-stream1-regime1-d50",
+      "file": "data/inputs/main/rep5-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 5,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime0-d10",
+      "file": "data/inputs/main/rep6-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime0-d20",
+      "file": "data/inputs/main/rep6-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime0-d50",
+      "file": "data/inputs/main/rep6-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime1-d10",
+      "file": "data/inputs/main/rep6-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime1-d20",
+      "file": "data/inputs/main/rep6-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream0-regime1-d50",
+      "file": "data/inputs/main/rep6-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime0-d10",
+      "file": "data/inputs/main/rep6-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime0-d20",
+      "file": "data/inputs/main/rep6-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime0-d50",
+      "file": "data/inputs/main/rep6-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime1-d10",
+      "file": "data/inputs/main/rep6-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime1-d20",
+      "file": "data/inputs/main/rep6-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep6-stream1-regime1-d50",
+      "file": "data/inputs/main/rep6-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 6,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime0-d10",
+      "file": "data/inputs/main/rep7-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime0-d20",
+      "file": "data/inputs/main/rep7-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime0-d50",
+      "file": "data/inputs/main/rep7-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime1-d10",
+      "file": "data/inputs/main/rep7-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime1-d20",
+      "file": "data/inputs/main/rep7-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream0-regime1-d50",
+      "file": "data/inputs/main/rep7-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime0-d10",
+      "file": "data/inputs/main/rep7-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime0-d20",
+      "file": "data/inputs/main/rep7-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime0-d50",
+      "file": "data/inputs/main/rep7-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime1-d10",
+      "file": "data/inputs/main/rep7-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime1-d20",
+      "file": "data/inputs/main/rep7-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "main",
+      "id": "rep7-stream1-regime1-d50",
+      "file": "data/inputs/main/rep7-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 7,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime0-d10",
+      "file": "data/inputs/robustness/rep0-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime0-d20",
+      "file": "data/inputs/robustness/rep0-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime0-d50",
+      "file": "data/inputs/robustness/rep0-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime1-d10",
+      "file": "data/inputs/robustness/rep0-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime1-d20",
+      "file": "data/inputs/robustness/rep0-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream0-regime1-d50",
+      "file": "data/inputs/robustness/rep0-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime0-d10",
+      "file": "data/inputs/robustness/rep0-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime0-d20",
+      "file": "data/inputs/robustness/rep0-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime0-d50",
+      "file": "data/inputs/robustness/rep0-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime1-d10",
+      "file": "data/inputs/robustness/rep0-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime1-d20",
+      "file": "data/inputs/robustness/rep0-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep0-stream1-regime1-d50",
+      "file": "data/inputs/robustness/rep0-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 0,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime0-d10",
+      "file": "data/inputs/robustness/rep1-stream0-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime0-d20",
+      "file": "data/inputs/robustness/rep1-stream0-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime0-d50",
+      "file": "data/inputs/robustness/rep1-stream0-regime0-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime1-d10",
+      "file": "data/inputs/robustness/rep1-stream0-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime1-d20",
+      "file": "data/inputs/robustness/rep1-stream0-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream0-regime1-d50",
+      "file": "data/inputs/robustness/rep1-stream0-regime1-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 0,
+      "regime": 1,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime0-d10",
+      "file": "data/inputs/robustness/rep1-stream1-regime0-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime0-d20",
+      "file": "data/inputs/robustness/rep1-stream1-regime0-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime0-d50",
+      "file": "data/inputs/robustness/rep1-stream1-regime0-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 0,
+      "dimension": 50
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime1-d10",
+      "file": "data/inputs/robustness/rep1-stream1-regime1-d10.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 10
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime1-d20",
+      "file": "data/inputs/robustness/rep1-stream1-regime1-d20.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 20
+    },
+    {
+      "cohort": "robustness",
+      "id": "rep1-stream1-regime1-d50",
+      "file": "data/inputs/robustness/rep1-stream1-regime1-d50.npz",
+      "targets": 8,
+      "replica": 1,
+      "stream": 1,
+      "regime": 1,
+      "dimension": 50
+    }
+  ],
+  "files": {
+    "data/inputs/ambiguity.npz": {
+      "sha256": "cc7a6f368fa896658bda28b057d69c8eda8ceff19c74f5e3c0b9f1a3363e760c",
+      "bytes": 38539
+    },
+    "data/inputs/independent/rep0-stream0-regime0-d10.npz": {
+      "sha256": "11c9b9ffcdc5586f8aaf371c7d9e465f0fdf0492e9fcd22283b0f1ab9430d88c",
+      "bytes": 23904
+    },
+    "data/inputs/independent/rep0-stream0-regime0-d20.npz": {
+      "sha256": "89c3c3f7675c4664c80fe3c1bbbed33312780a6737045e77e87a458edd7df246",
+      "bytes": 92264
+    },
+    "data/inputs/independent/rep0-stream0-regime1-d10.npz": {
+      "sha256": "5aeb0d0b578a911d8b24cb7aca206508bb21727cc8bcf06824a65e1ee9ba392d",
+      "bytes": 23872
+    },
+    "data/inputs/independent/rep0-stream0-regime1-d20.npz": {
+      "sha256": "40ce44f9dc9b356ec055d1e41354e8ffe87d5329a18fd046f0e5dbcdae60c112",
+      "bytes": 92177
+    },
+    "data/inputs/independent/rep0-stream1-regime0-d10.npz": {
+      "sha256": "eac35b7ee0fddfbf196850133e2a76bb9d668065aa1d9df02a3abf0554a3ca90",
+      "bytes": 23928
+    },
+    "data/inputs/independent/rep0-stream1-regime0-d20.npz": {
+      "sha256": "8099f96709783ca11f607cac2792a0faeb709d903235fbdf70ceb476d119d9b6",
+      "bytes": 92269
+    },
+    "data/inputs/independent/rep0-stream1-regime1-d10.npz": {
+      "sha256": "270faacfebf7a34e72b9b901b7f12bc912f585703e5549e2e563dbf3b0cfdefe",
+      "bytes": 23862
+    },
+    "data/inputs/independent/rep0-stream1-regime1-d20.npz": {
+      "sha256": "41e1011e1b2908b0e580ee349d2e220245cafda0c2296a4031485f6efc4e835e",
+      "bytes": 92152
+    },
+    "data/inputs/independent/rep1-stream0-regime0-d10.npz": {
+      "sha256": "17ae9fff73fa10a4a540032c255b1fe72e5e1b2d4eb1e57df0ba4bf00d613ecf",
+      "bytes": 23885
+    },
+    "data/inputs/independent/rep1-stream0-regime0-d20.npz": {
+      "sha256": "37afa4eb3485e7e4072053851e1be7b572af48c6acffd0cf4a93d84f1809f451",
+      "bytes": 92257
+    },
+    "data/inputs/independent/rep1-stream0-regime1-d10.npz": {
+      "sha256": "bc4db855f23dbb9955752bdc51ea46c96c1cbb1e7412b6d5145b67aa5e60b2aa",
+      "bytes": 23904
+    },
+    "data/inputs/independent/rep1-stream0-regime1-d20.npz": {
+      "sha256": "072217efe4d8e11816113fec508c9de024c0bdc6ad83bb3f3fdd9db8de7379bc",
+      "bytes": 92162
+    },
+    "data/inputs/independent/rep1-stream1-regime0-d10.npz": {
+      "sha256": "dae1acdc4cee972260e129c5639b5d5ef9809f4cb15a59066c79210e4a2cffe2",
+      "bytes": 23896
+    },
+    "data/inputs/independent/rep1-stream1-regime0-d20.npz": {
+      "sha256": "834ff4a5e2b6cb8fbcebd334a7ac5c5022f8b0b610be2a621baa31d319f1c6d1",
+      "bytes": 92273
+    },
+    "data/inputs/independent/rep1-stream1-regime1-d10.npz": {
+      "sha256": "778788a430de09f49bc3e1ea045a8cefa5e94f6ec4d9b1313d3861ebf1f00880",
+      "bytes": 23902
+    },
+    "data/inputs/independent/rep1-stream1-regime1-d20.npz": {
+      "sha256": "03c104abdcdeedb7e94a4d2c75da52973c179d4e6ac05f26c854b7c54902a340",
+      "bytes": 92213
+    },
+    "data/inputs/main/rep0-stream0-regime0-d10.npz": {
+      "sha256": "fe8660ffe30aa88de547b953d5c6812ff6f26d042561a3b2aad57d720ad09738",
+      "bytes": 23913
+    },
+    "data/inputs/main/rep0-stream0-regime0-d20.npz": {
+      "sha256": "51e9d3662e554071216d4bf56524dd5ab5e37e78b1e6f15e193282b3e3b18759",
+      "bytes": 92289
+    },
+    "data/inputs/main/rep0-stream0-regime0-d50.npz": {
+      "sha256": "2c898e8e2cdbeed426112af35344fe441ecc269720ef02785dfd6765d4862ae6",
+      "bytes": 571443
+    },
+    "data/inputs/main/rep0-stream0-regime1-d10.npz": {
+      "sha256": "66de62167303a8a06eac500571327c11223cf8ba0721f317f3fb9f959ff9d6bf",
+      "bytes": 23904
+    },
+    "data/inputs/main/rep0-stream0-regime1-d20.npz": {
+      "sha256": "f4bd7979120b9c1b076346382d9eef46116aece25f58d60b348933e2763e0277",
+      "bytes": 92176
+    },
+    "data/inputs/main/rep0-stream0-regime1-d50.npz": {
+      "sha256": "9af9968dbfbda596f43f61065da1a76b58f8c295a5de1bc18809ec68c16ae25c",
+      "bytes": 570818
+    },
+    "data/inputs/main/rep0-stream1-regime0-d10.npz": {
+      "sha256": "2fa4fc8e7ffa5b2840ac7b54466efd7a6bbc40e81c8a5da951ea79a91563f55d",
+      "bytes": 23924
+    },
+    "data/inputs/main/rep0-stream1-regime0-d20.npz": {
+      "sha256": "f707a39d364d043398c612081f6feea649d088b902924f2d10d046fe8fb78eda",
+      "bytes": 92270
+    },
+    "data/inputs/main/rep0-stream1-regime0-d50.npz": {
+      "sha256": "010633b7b5f2c2364acaad0edae9d593643a54225001baa30b9024e2a87b5348",
+      "bytes": 571385
+    },
+    "data/inputs/main/rep0-stream1-regime1-d10.npz": {
+      "sha256": "e78075f2ddb567a74a63be96900866e3f01782d8cb2372c0bd0e54a836260b44",
+      "bytes": 23925
+    },
+    "data/inputs/main/rep0-stream1-regime1-d20.npz": {
+      "sha256": "5e5252cb3b9195d00a6ad03b223d09802124570b3dc723b69cee86ba468c5f74",
+      "bytes": 92134
+    },
+    "data/inputs/main/rep0-stream1-regime1-d50.npz": {
+      "sha256": "6c703d41f5f310e9436b6e5fc3236eeb8f8a4116e338358263466f46adb0bb66",
+      "bytes": 570804
+    },
+    "data/inputs/main/rep1-stream0-regime0-d10.npz": {
+      "sha256": "27b2874550269f18f7872bf222cd4161c0261f45b02c6c2aa4247445d841e7c8",
+      "bytes": 23906
+    },
+    "data/inputs/main/rep1-stream0-regime0-d20.npz": {
+      "sha256": "df83a3452bca5a3a464ec7fc99dc2572ace83b3280b8567e647cf5da79b5b6a5",
+      "bytes": 92298
+    },
+    "data/inputs/main/rep1-stream0-regime0-d50.npz": {
+      "sha256": "d436d5a5c088620a54e541a7b46c0c6208c2332a5a4e9c553837d8d110a85f35",
+      "bytes": 571311
+    },
+    "data/inputs/main/rep1-stream0-regime1-d10.npz": {
+      "sha256": "d670051bb886838ccc482e53809e52e8fe313a6fd347e480e3a286268124882c",
+      "bytes": 23895
+    },
+    "data/inputs/main/rep1-stream0-regime1-d20.npz": {
+      "sha256": "c797281da877dfa6a80478060f1c8a7121a804ef3d0609c82045a967a1049b9a",
+      "bytes": 92152
+    },
+    "data/inputs/main/rep1-stream0-regime1-d50.npz": {
+      "sha256": "4a0d8f5d6eccbae077b4128d2a68e964c4d8036cb16f0ded5323721b180225d9",
+      "bytes": 570620
+    },
+    "data/inputs/main/rep1-stream1-regime0-d10.npz": {
+      "sha256": "abb0193165a8a99d33b26942b1b115fbd532610b22dcf71df74bcd8b3f9168e7",
+      "bytes": 23938
+    },
+    "data/inputs/main/rep1-stream1-regime0-d20.npz": {
+      "sha256": "cbe98b03ba56011bc5067eb8240414c949cb9a7375ffc63c4f21fcff7617750a",
+      "bytes": 92272
+    },
+    "data/inputs/main/rep1-stream1-regime0-d50.npz": {
+      "sha256": "bbc4edffb2ef5c0038f31891dc5114af8f1075c2b0771a8fad3cdd7be51fdcca",
+      "bytes": 571284
+    },
+    "data/inputs/main/rep1-stream1-regime1-d10.npz": {
+      "sha256": "f820982b894a3676add03e61cbe93ff7384ee3d193eb80dbcc2fd871dbf05959",
+      "bytes": 23877
+    },
+    "data/inputs/main/rep1-stream1-regime1-d20.npz": {
+      "sha256": "c367535341939a7bed36ac0db6d89fcba141648f1d7075a55275bd8803f73cb2",
+      "bytes": 92144
+    },
+    "data/inputs/main/rep1-stream1-regime1-d50.npz": {
+      "sha256": "849b8d2613f979590c24f2a1dc8d6f03098b4c5e7c4d02752abc4ae54d108575",
+      "bytes": 570796
+    },
+    "data/inputs/main/rep2-stream0-regime0-d10.npz": {
+      "sha256": "8c0549bd2dc0138f18d35805525b41559e92623e360e26f4cb38d62e34d421c3",
+      "bytes": 23949
+    },
+    "data/inputs/main/rep2-stream0-regime0-d20.npz": {
+      "sha256": "40d009ff4bf5472e9ccb131b4fc7fe33a8b13192d415819de82fc6f7050c7266",
+      "bytes": 92276
+    },
+    "data/inputs/main/rep2-stream0-regime0-d50.npz": {
+      "sha256": "4bac2c8332641d39761cca8ec96638559a541c016ec407db1e426a1675df0e09",
+      "bytes": 571413
+    },
+    "data/inputs/main/rep2-stream0-regime1-d10.npz": {
+      "sha256": "99dadadeb242f5de119af79029f1ba4a6badae4daf2da24c2749a17f93c2ecdc",
+      "bytes": 23899
+    },
+    "data/inputs/main/rep2-stream0-regime1-d20.npz": {
+      "sha256": "7f1a07935383bdb5978764deab1746468da05891a4a7d6798906772d4bbce479",
+      "bytes": 92191
+    },
+    "data/inputs/main/rep2-stream0-regime1-d50.npz": {
+      "sha256": "c11e8598e9f872c49efdd0537dc1f5c5ee591e34dbf37e03ce135ba470d4b77f",
+      "bytes": 570827
+    },
+    "data/inputs/main/rep2-stream1-regime0-d10.npz": {
+      "sha256": "ddafe042a0852bcad8a06497d48660660f5a6a55e2b622b2253032b2a36a7c28",
+      "bytes": 23896
+    },
+    "data/inputs/main/rep2-stream1-regime0-d20.npz": {
+      "sha256": "3bb4e26c83bb2420716193a9f38fd6e2d56f97c52dc17506f711fbb49738a240",
+      "bytes": 92260
+    },
+    "data/inputs/main/rep2-stream1-regime0-d50.npz": {
+      "sha256": "49acfc948334169ca29ee70218d1eef741db001a268c2493932a61447afd48ec",
+      "bytes": 571407
+    },
+    "data/inputs/main/rep2-stream1-regime1-d10.npz": {
+      "sha256": "c9b2af9f261d30bfb23178865d9968e56e424d1121627e22fbe9eb1e74c97b31",
+      "bytes": 23906
+    },
+    "data/inputs/main/rep2-stream1-regime1-d20.npz": {
+      "sha256": "350c1ff504dd5289cd7ab48e88d207989dc88f258d9170a638000d3b61325508",
+      "bytes": 92173
+    },
+    "data/inputs/main/rep2-stream1-regime1-d50.npz": {
+      "sha256": "b37c696b8ca94901cc355291ec4b30718e3e5439b3d15492a44ad6af60a28cc0",
+      "bytes": 570886
+    },
+    "data/inputs/main/rep3-stream0-regime0-d10.npz": {
+      "sha256": "14a053c183407d63e1d0663b9b0f0082c74a893162e963fe739ddaeb33e41896",
+      "bytes": 23933
+    },
+    "data/inputs/main/rep3-stream0-regime0-d20.npz": {
+      "sha256": "67a3c425274d7d790fe4a561189177c701986ce6a146f4fa35af288e405b0531",
+      "bytes": 92281
+    },
+    "data/inputs/main/rep3-stream0-regime0-d50.npz": {
+      "sha256": "f46052ba234478aeb5faedc03dcbed3fd0ba3f8d681b9e86da9f92889fcc9f39",
+      "bytes": 571321
+    },
+    "data/inputs/main/rep3-stream0-regime1-d10.npz": {
+      "sha256": "b9299bfef99c7d5017944755bda3d1f8423c4b140d3852a77ceb3f2c7fdd070c",
+      "bytes": 23910
+    },
+    "data/inputs/main/rep3-stream0-regime1-d20.npz": {
+      "sha256": "96581ffbcb19b2e59d804503b54a1ea0becbc8912c2d59359e60c074d40ccae6",
+      "bytes": 92108
+    },
+    "data/inputs/main/rep3-stream0-regime1-d50.npz": {
+      "sha256": "7d6c08076894005c04502a9a68b33a3327e83e9bdece8fc4975ee6ab32da99ff",
+      "bytes": 570877
+    },
+    "data/inputs/main/rep3-stream1-regime0-d10.npz": {
+      "sha256": "180440317e5e9726361c10c2c86f62423708220ef7054909eef03643884aff62",
+      "bytes": 23906
+    },
+    "data/inputs/main/rep3-stream1-regime0-d20.npz": {
+      "sha256": "2c4e1c8863d191d7a821d7bdf93b413ea1d6ac7522d5a43216e030335d20eeb0",
+      "bytes": 92261
+    },
+    "data/inputs/main/rep3-stream1-regime0-d50.npz": {
+      "sha256": "661a74ec168cad7a8f0734a2d56918454b64e116b4496d458f624677376e0c78",
+      "bytes": 571219
+    },
+    "data/inputs/main/rep3-stream1-regime1-d10.npz": {
+      "sha256": "4c78833c1914128c1d7cff13b7ccd94ead98ba239c7471ee845418dab766cdfe",
+      "bytes": 23896
+    },
+    "data/inputs/main/rep3-stream1-regime1-d20.npz": {
+      "sha256": "3581f44e9d9f752bb7b9cd8491893d93a589a017657a49c9ecf43356d780d86f",
+      "bytes": 92135
+    },
+    "data/inputs/main/rep3-stream1-regime1-d50.npz": {
+      "sha256": "57417a88bfd0fc48401723c222f5d9660193b67884e4636befca65ecc91ba18b",
+      "bytes": 570789
+    },
+    "data/inputs/main/rep4-stream0-regime0-d10.npz": {
+      "sha256": "aff02cd4e5914f78abe449e71723d56e6f118ec402bcf9f797fc70805c7f2a23",
+      "bytes": 23903
+    },
+    "data/inputs/main/rep4-stream0-regime0-d20.npz": {
+      "sha256": "c689a4a8b7b30460ce795251e47e1c03c1d924ea722407145b1a953ff7898ba1",
+      "bytes": 92221
+    },
+    "data/inputs/main/rep4-stream0-regime0-d50.npz": {
+      "sha256": "9008eb5d044068ef9d0b279e7bf0a6c46d327b83fb5d76928a5f45186640570c",
+      "bytes": 571279
+    },
+    "data/inputs/main/rep4-stream0-regime1-d10.npz": {
+      "sha256": "e3a65f407f9ae08fe9054d8bc29d93a129b328931bc57de6ed1505ffef55f5a6",
+      "bytes": 23875
+    },
+    "data/inputs/main/rep4-stream0-regime1-d20.npz": {
+      "sha256": "dd6894798893d0570c9f7ece782893f9a37238ab82b4e6570eb49820ec286e6b",
+      "bytes": 92238
+    },
+    "data/inputs/main/rep4-stream0-regime1-d50.npz": {
+      "sha256": "6648b09d3cb206470feda7a30f2f251625325a74bd9712a183a3b6f40e80ee00",
+      "bytes": 570853
+    },
+    "data/inputs/main/rep4-stream1-regime0-d10.npz": {
+      "sha256": "3b4955036da7ebeb25da44c84c626404296e81db81f62d6e30aa86cd989d2bb8",
+      "bytes": 23902
+    },
+    "data/inputs/main/rep4-stream1-regime0-d20.npz": {
+      "sha256": "311cb1430ec4c7831866d4d0b7d43da705c7dde2b3c4e8a724e33c81ac16ffb8",
+      "bytes": 92240
+    },
+    "data/inputs/main/rep4-stream1-regime0-d50.npz": {
+      "sha256": "feca35e7ff3a242f49b1734c75af59a14ba38222c26764e6ab4247c47dca0981",
+      "bytes": 571378
+    },
+    "data/inputs/main/rep4-stream1-regime1-d10.npz": {
+      "sha256": "b186744fc9e66cf3fec9fe5667fca39569037def000b1ccb82cbc367b9ccb078",
+      "bytes": 23882
+    },
+    "data/inputs/main/rep4-stream1-regime1-d20.npz": {
+      "sha256": "81c88837710cbcb15bde9beeeaa8ac43e3864ba681ce79905aa36dba07f50e19",
+      "bytes": 92222
+    },
+    "data/inputs/main/rep4-stream1-regime1-d50.npz": {
+      "sha256": "74cc965d5dfaac93a3e22dd952863710322a68b236d376bb59054aa77ce815ba",
+      "bytes": 570948
+    },
+    "data/inputs/main/rep5-stream0-regime0-d10.npz": {
+      "sha256": "0f699a61244f0e3be761bd0e0377d681bd510048d7004821ab4392a8e12e1c91",
+      "bytes": 23897
+    },
+    "data/inputs/main/rep5-stream0-regime0-d20.npz": {
+      "sha256": "69ff987eb1ac4901223d92b21ebf8df9ff139717cabbe55904303dba179e2881",
+      "bytes": 92239
+    },
+    "data/inputs/main/rep5-stream0-regime0-d50.npz": {
+      "sha256": "f5b1ace9448742bb1024eeb22e40c8359a69cad391484180544d9b67f0dc1876",
+      "bytes": 571225
+    },
+    "data/inputs/main/rep5-stream0-regime1-d10.npz": {
+      "sha256": "159cbede9b370b1e25ef7188f466de91be6af0b0224dae5682e38096e2236cb1",
+      "bytes": 23916
+    },
+    "data/inputs/main/rep5-stream0-regime1-d20.npz": {
+      "sha256": "a5c40f2eec394ac750a8a81d3e5d85adac80e1fbee3b0399baaa2bf8d78536ad",
+      "bytes": 92254
+    },
+    "data/inputs/main/rep5-stream0-regime1-d50.npz": {
+      "sha256": "52f154882017956c763783e3b7e57da9cea30fa420e8cb9f2dd3a829caa90088",
+      "bytes": 570711
+    },
+    "data/inputs/main/rep5-stream1-regime0-d10.npz": {
+      "sha256": "551f6b496f7389cb465ddd026058ccfec47b47e905439cf5de8d0ffe8d708f14",
+      "bytes": 23947
+    },
+    "data/inputs/main/rep5-stream1-regime0-d20.npz": {
+      "sha256": "840cb3ab9c103286d1b4c2c8ace002b1d8f95b0c0972852846f487b3540a9987",
+      "bytes": 92248
+    },
+    "data/inputs/main/rep5-stream1-regime0-d50.npz": {
+      "sha256": "346dd4638b66ac21b5b40cd1551f6df313dd906a6acbe5e853f4b391709c9312",
+      "bytes": 571314
+    },
+    "data/inputs/main/rep5-stream1-regime1-d10.npz": {
+      "sha256": "ed72b5a755c859e034ed97a7982c334f6d5ae6ccdd95ffc4b8aadcb718d5aee8",
+      "bytes": 23877
+    },
+    "data/inputs/main/rep5-stream1-regime1-d20.npz": {
+      "sha256": "f3d03c1065698ebd421869e7506d9c385e9e553de6d5fe9755d342f7b367c7a9",
+      "bytes": 92182
+    },
+    "data/inputs/main/rep5-stream1-regime1-d50.npz": {
+      "sha256": "be7289d6fe1e94aca818fabd768579fee9080a8cde590edc78f045400063e73d",
+      "bytes": 570815
+    },
+    "data/inputs/main/rep6-stream0-regime0-d10.npz": {
+      "sha256": "b541ebd70b8c99caa30ecd1638699d18364c8898a937693adf44c0d0ecb44847",
+      "bytes": 23926
+    },
+    "data/inputs/main/rep6-stream0-regime0-d20.npz": {
+      "sha256": "a7b371b13b634ca3cab45a39fba5a04bf98c815205a1b7d70af9f4ef17ea9e28",
+      "bytes": 92303
+    },
+    "data/inputs/main/rep6-stream0-regime0-d50.npz": {
+      "sha256": "08e7d4aec8a5de5f55daa6db472b2808a689a13ab74d4df30567545ddb62bbd7",
+      "bytes": 571485
+    },
+    "data/inputs/main/rep6-stream0-regime1-d10.npz": {
+      "sha256": "cba52935281d9fb43d43f4de2b26557d34bfb7d4c98cb338430ad1477c176a2d",
+      "bytes": 23890
+    },
+    "data/inputs/main/rep6-stream0-regime1-d20.npz": {
+      "sha256": "cdd06009168cc8ebfbe0d08096d1c216c1d78b77d76f373dfa6671f4f2a37d53",
+      "bytes": 92167
+    },
+    "data/inputs/main/rep6-stream0-regime1-d50.npz": {
+      "sha256": "6a3c1a9c7a5419c1b0bf583707b0b227c5bfd515ccef1774c84c665b3df6ed84",
+      "bytes": 570740
+    },
+    "data/inputs/main/rep6-stream1-regime0-d10.npz": {
+      "sha256": "d94be8fbb7cdbba135f84bd86b2e27b43bf894387db23e2a7854cf9c24873e95",
+      "bytes": 23892
+    },
+    "data/inputs/main/rep6-stream1-regime0-d20.npz": {
+      "sha256": "3095dcfdb2cda447a33fa72426722bf4752b0017ad2a57180801b011e75e41ab",
+      "bytes": 92245
+    },
+    "data/inputs/main/rep6-stream1-regime0-d50.npz": {
+      "sha256": "66d5492e85f348cc612b2dec97371fb53cc0e812740a0c5154f2cdc027843387",
+      "bytes": 571340
+    },
+    "data/inputs/main/rep6-stream1-regime1-d10.npz": {
+      "sha256": "b698f3a84d1bc34468eb0c177c713f6bcba75564d0969b181383f51e4b3028a6",
+      "bytes": 23898
+    },
+    "data/inputs/main/rep6-stream1-regime1-d20.npz": {
+      "sha256": "93f9d0758d901a33cb13b1130ca5eec7dad062ca6c3dede839ee494e09c62010",
+      "bytes": 92171
+    },
+    "data/inputs/main/rep6-stream1-regime1-d50.npz": {
+      "sha256": "6cee829cc417efb6b2297968dfdda05fec117e78c530d479cc0fc4d756cce5c4",
+      "bytes": 570823
+    },
+    "data/inputs/main/rep7-stream0-regime0-d10.npz": {
+      "sha256": "82c474104d6a871008ccc8b2163521aea8d07e83ab833f04159aaefc979dc8ea",
+      "bytes": 23889
+    },
+    "data/inputs/main/rep7-stream0-regime0-d20.npz": {
+      "sha256": "b5205a072babab70cfda0daf45ef32e0d1cd947794936673162387114d5c456e",
+      "bytes": 92312
+    },
+    "data/inputs/main/rep7-stream0-regime0-d50.npz": {
+      "sha256": "710ebbb89a1d075fbb26c6dab2b4924ff717112a1c792875211806e3b22cbe2b",
+      "bytes": 571309
+    },
+    "data/inputs/main/rep7-stream0-regime1-d10.npz": {
+      "sha256": "12f5993234461779abbdb128a56971ba444d15767d850b455378e25f29ef66bd",
+      "bytes": 23907
+    },
+    "data/inputs/main/rep7-stream0-regime1-d20.npz": {
+      "sha256": "d5d5881e4f21f2b12b04e191fc5726db4398be5469b67b3af8bf367014e4394d",
+      "bytes": 92183
+    },
+    "data/inputs/main/rep7-stream0-regime1-d50.npz": {
+      "sha256": "47b8e920d116e2a6760876a2ec95c0a3646b0fcdcfc09255582412581e099e13",
+      "bytes": 570859
+    },
+    "data/inputs/main/rep7-stream1-regime0-d10.npz": {
+      "sha256": "799465d68a8a716975582a21f338c2cfc8459b7fd57d179abb15cd9a15b79236",
+      "bytes": 23898
+    },
+    "data/inputs/main/rep7-stream1-regime0-d20.npz": {
+      "sha256": "72cd3752a4a49385705c72f7e1ccf45c0ad4da0433b6bdba22cdc5de8de3ac60",
+      "bytes": 92284
+    },
+    "data/inputs/main/rep7-stream1-regime0-d50.npz": {
+      "sha256": "9b51aee6496c5dbd9d7ec0aa531ad4b02d5764df21ea3c56a35e4c60b2389942",
+      "bytes": 571300
+    },
+    "data/inputs/main/rep7-stream1-regime1-d10.npz": {
+      "sha256": "0fe1bb7d51cf844d0d483e7acc33619e3671665099e8bdedeb0667a0286071d2",
+      "bytes": 23878
+    },
+    "data/inputs/main/rep7-stream1-regime1-d20.npz": {
+      "sha256": "ea520cb3b388a0696d6a30da8a3726681a43e73083d647a5e0854c5b63178e41",
+      "bytes": 92183
+    },
+    "data/inputs/main/rep7-stream1-regime1-d50.npz": {
+      "sha256": "8334d9acdc7c168079089004ed788879bac28dc5fd0b491dccd920b326afc556",
+      "bytes": 570584
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime0-d10.npz": {
+      "sha256": "53bb3c372c0e4a495b29e598332aa8bd9639e1b95fcb17df7eb8b7381bba7056",
+      "bytes": 18625
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime0-d20.npz": {
+      "sha256": "06e2cb9bc11af81fa13442e18b2d8704e30961e2776f0259075f69e083e4fceb",
+      "bytes": 73730
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime0-d50.npz": {
+      "sha256": "03919f9ec0431d717f40f659c9399ca5a467b5b5eb75675dd3efbab30ee66c23",
+      "bytes": 459696
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime1-d10.npz": {
+      "sha256": "159ee7bd15db3364792387370769fe447cc625fe3eb9182862ae4bfe8b481141",
+      "bytes": 18644
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime1-d20.npz": {
+      "sha256": "cafb9bf7473416bd667985c00240807388ccd400253a4ebf34b6bdee7ab4d2ce",
+      "bytes": 73747
+    },
+    "data/inputs/random-mirrors/rep0-stream0-regime1-d50.npz": {
+      "sha256": "048db928a1c4af9f2b078b672263f15562bd25b29d6c9fb23e29b13306e895e8",
+      "bytes": 459680
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime0-d10.npz": {
+      "sha256": "651fa0ff49c1764f9eaf78a43c03cb47e6a02c1d263f63c9e75cc25da32f3649",
+      "bytes": 18637
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime0-d20.npz": {
+      "sha256": "2ca82cb16186a93a13d997837f8b9979667968db1a3b9566d98fee48497d217c",
+      "bytes": 73778
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime0-d50.npz": {
+      "sha256": "995c6e7a6cd37abc035ba15552305ed539a920dde7732df00e52831fc859452a",
+      "bytes": 459642
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime1-d10.npz": {
+      "sha256": "2c25fce76d6f6a36c6c190ce0bab8e0f65ca6cb666d3d5e26aecbab73c5366c0",
+      "bytes": 18639
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime1-d20.npz": {
+      "sha256": "107c6ec05651ec1e6595bf65e57c3af318076576443ec989d10348711f0497d8",
+      "bytes": 73717
+    },
+    "data/inputs/random-mirrors/rep0-stream1-regime1-d50.npz": {
+      "sha256": "037c5a38da632f71763580476c9dec32c798a0e72ebccd6da0d561fe29ceb8b5",
+      "bytes": 459661
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime0-d10.npz": {
+      "sha256": "ba137abf89b25e4de12ea0eb0fef1a9c2ceb42497c6ab0c689eab2350de66c33",
+      "bytes": 18650
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime0-d20.npz": {
+      "sha256": "052a8dca7e61112c1c5080ca6e5486bf306b711dbe515427eb2ae3aefccd63bd",
+      "bytes": 73762
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime0-d50.npz": {
+      "sha256": "99851aae11a28652b217d07da145ced6d9eff5b5e7a363d5463106519912d15e",
+      "bytes": 459693
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime1-d10.npz": {
+      "sha256": "41bea99326b18de4563eb75207fcf00235bdf0ca0e5e4875f5b46f552b991956",
+      "bytes": 18635
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime1-d20.npz": {
+      "sha256": "8be385fe78f7c7b0bb76f236c614bb10d68e613382a20620f8dd810c1ac7e875",
+      "bytes": 73761
+    },
+    "data/inputs/random-mirrors/rep1-stream0-regime1-d50.npz": {
+      "sha256": "278863d9d92cff6e371b08f1e1b3d199cbfafff772e3db355dc54bcc11c0a06a",
+      "bytes": 459659
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime0-d10.npz": {
+      "sha256": "1c98d830864a35c4a524b33e0e6f115c37a0e0b97243a7124564b33c734cf257",
+      "bytes": 18646
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime0-d20.npz": {
+      "sha256": "e1c91717b3fe9289a679cbec14903a9b2e4e2d1114906f7d3cb6dfccb39c76a8",
+      "bytes": 73757
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime0-d50.npz": {
+      "sha256": "758e7a4db5990d868f0bba5326223f85facaeb3370e91cc567e21103cbcd0af0",
+      "bytes": 459655
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime1-d10.npz": {
+      "sha256": "1b38ee1ca354f88baaa3e4d8c4212f08b57971d56b4d1c91885c43be1368290d",
+      "bytes": 18644
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime1-d20.npz": {
+      "sha256": "043943dbd40ad62a81cbc5d2fe821ce2fa178419db3dc86d7b5e2e3660a4bbb2",
+      "bytes": 73769
+    },
+    "data/inputs/random-mirrors/rep1-stream1-regime1-d50.npz": {
+      "sha256": "532386f478e9d31f02e4cd6b74d5e52184fce584ac2e4c65372668018295f999",
+      "bytes": 459659
+    },
+    "data/inputs/robustness/rep0-stream0-regime0-d10.npz": {
+      "sha256": "f31e5720f26484769269e72d0d38eef9d61b135ca84f24476323f32d32fb59f4",
+      "bytes": 32905
+    },
+    "data/inputs/robustness/rep0-stream0-regime0-d20.npz": {
+      "sha256": "e44002a8c78c5f0b50f02ee3fcb1402b05ce98e62f636f76419015ec9510cf03",
+      "bytes": 123384
+    },
+    "data/inputs/robustness/rep0-stream0-regime0-d50.npz": {
+      "sha256": "6e99eaeff4212b0eec1ab2ce6000963f26ddf79a715d211d4f3aabf6048da936",
+      "bytes": 1043441
+    },
+    "data/inputs/robustness/rep0-stream0-regime1-d10.npz": {
+      "sha256": "16f0a22c88dcb02daf65473ef5a2d1febab0a9b8e017a6f0030636400485f5c1",
+      "bytes": 32852
+    },
+    "data/inputs/robustness/rep0-stream0-regime1-d20.npz": {
+      "sha256": "cfdf0912a2fb638258950da7af705015a76655c793eac871c5c952e8076af25b",
+      "bytes": 123199
+    },
+    "data/inputs/robustness/rep0-stream0-regime1-d50.npz": {
+      "sha256": "f06f1be1cad35edcc9208ac655d264a96c852c909bf124244c89544d5650db56",
+      "bytes": 1043015
+    },
+    "data/inputs/robustness/rep0-stream1-regime0-d10.npz": {
+      "sha256": "699ea456ff0e173180d3cfa16f6e617bc4633206784da2a95c8fca276f0485a6",
+      "bytes": 32884
+    },
+    "data/inputs/robustness/rep0-stream1-regime0-d20.npz": {
+      "sha256": "b8de4dae263dd646d2b9da05f611f76df16bb17504dd20e77b1e6fe2cffa959f",
+      "bytes": 123345
+    },
+    "data/inputs/robustness/rep0-stream1-regime0-d50.npz": {
+      "sha256": "ef16d75a8cab9a92d2ab8d0491fbbaf81b367d7d8e047e3bfa51e09650613116",
+      "bytes": 1043445
+    },
+    "data/inputs/robustness/rep0-stream1-regime1-d10.npz": {
+      "sha256": "d24737450ccf83620572bf05a38b60697c43c248484bf8605ca0f318f3513bf3",
+      "bytes": 32862
+    },
+    "data/inputs/robustness/rep0-stream1-regime1-d20.npz": {
+      "sha256": "2a0dc02ce52e444589b5447391e597487b278c6310780fa1ffcc6e0261844245",
+      "bytes": 123230
+    },
+    "data/inputs/robustness/rep0-stream1-regime1-d50.npz": {
+      "sha256": "b76027f6421a4590508b60a404f1662fc625b92bfab1bdbbd7ee23405e5b991c",
+      "bytes": 1043154
+    },
+    "data/inputs/robustness/rep1-stream0-regime0-d10.npz": {
+      "sha256": "144957f3f6d5a088d3f292a29ab1d160718a574fd9ba42759408f7ff10866450",
+      "bytes": 32861
+    },
+    "data/inputs/robustness/rep1-stream0-regime0-d20.npz": {
+      "sha256": "96b973838d6f08f9dfac6ad2ae72e7dbf3bbbf018bf34a2b283d59b8fab75c3b",
+      "bytes": 123290
+    },
+    "data/inputs/robustness/rep1-stream0-regime0-d50.npz": {
+      "sha256": "f644e3c148ba0214fafb412ba249369a4452cf89df1e9fe83a7f31af2c0e0ea7",
+      "bytes": 1043440
+    },
+    "data/inputs/robustness/rep1-stream0-regime1-d10.npz": {
+      "sha256": "8abfe6843fe254efd7070f04ba3087262864bad18c30644828803c5af679e7b1",
+      "bytes": 32873
+    },
+    "data/inputs/robustness/rep1-stream0-regime1-d20.npz": {
+      "sha256": "dc07aa8104f4eacef00d64550d22d5574fe89dcb8bfa4ff80ba2217d29648b0e",
+      "bytes": 123324
+    },
+    "data/inputs/robustness/rep1-stream0-regime1-d50.npz": {
+      "sha256": "722fbac0a78943e1417d2aaa600f812a74add6e502bca5b6e8f75c41a1b6576e",
+      "bytes": 1043163
+    },
+    "data/inputs/robustness/rep1-stream1-regime0-d10.npz": {
+      "sha256": "7158561300fdc9b338a8bbedf29f2be079425e0159caefe059d1515f81ceedb7",
+      "bytes": 32878
+    },
+    "data/inputs/robustness/rep1-stream1-regime0-d20.npz": {
+      "sha256": "06fae6e58a571724181651a7a88006d1f8f4b14ca8a1128669c898002a2e7888",
+      "bytes": 123345
+    },
+    "data/inputs/robustness/rep1-stream1-regime0-d50.npz": {
+      "sha256": "41af86f8e97c9cc175dc5bd4a1c75fd11f23ac932d15ee9294c25d44edd0f1ee",
+      "bytes": 1043695
+    },
+    "data/inputs/robustness/rep1-stream1-regime1-d10.npz": {
+      "sha256": "7a95a5d9e93a9c501d2a893e0e76479594743d0162d4c6ab33c553c2dcfd3f7c",
+      "bytes": 32844
+    },
+    "data/inputs/robustness/rep1-stream1-regime1-d20.npz": {
+      "sha256": "8a7a71bb0591baebdee5432adf314492debfd56465945edb32c3b3cf289e8269",
+      "bytes": 123228
+    },
+    "data/inputs/robustness/rep1-stream1-regime1-d50.npz": {
+      "sha256": "711f20cd898624b926419d17a74ae23c128f198fa4bada81e7e1af05f8a19ec9",
+      "bytes": 1043168
+    },
+    "data/reference/ambiguity.npz": {
+      "sha256": "13ec178f486ea10408bc3a3e958983c7ddbcda7913b02865fca126fdd244e4f1",
+      "bytes": 114617
+    },
+    "data/reference/curvature.csv": {
+      "sha256": "258eb6b1a1a23657df38914e56e81a004dc184bb598d2a928d9bd182e7cac9ea",
+      "bytes": 487373
+    },
+    "data/reference/decoder-controls.csv": {
+      "sha256": "a2e917309bdc6c961c074721a76d6d314bccc6703e8463d1c621c77b1ba07a7b",
+      "bytes": 1385740
+    },
+    "data/reference/independent.csv": {
+      "sha256": "d4f69f61d9dde652aa6b3089dfca765adaebc8cec22a4370c8276af04cc7f939",
+      "bytes": 187476
+    },
+    "data/reference/main.csv": {
+      "sha256": "56d3895e83621b8236733230b96ec874d37d235fdfd37d85ffd37cd3922cf847",
+      "bytes": 2447970
+    },
+    "data/reference/mismatch.csv": {
+      "sha256": "27884fb18d0a9e63fbbbd4cc2875a8c67c677f95204aa7f49c2fd2b718634e4c",
+      "bytes": 286557
+    },
+    "data/reference/random-mirrors.csv": {
+      "sha256": "f3ab138e1064bc2bb026dda2ca066784d2848513f538c61b1d3d145e515cc265",
+      "bytes": 256095
+    },
+    "results/paper/acquisition.csv": {
+      "sha256": "a508cf411099e70eea6aa40d625563c8b910fe77a9816c985dd0fac1fc473b65",
+      "bytes": 478
+    },
+    "results/paper/ambiguity_table.json": {
+      "sha256": "65e40ce0f206b98720b65281deb3ace95b36443564be4ff178696d2ef08c24dd",
+      "bytes": 742
+    },
+    "results/paper/curvature.csv": {
+      "sha256": "c864760106a5848405b8b8cb4a99523f2269b167766346960fa8cb252fe71a6f",
+      "bytes": 315
+    },
+    "results/paper/decoder_table.csv": {
+      "sha256": "829a3f5b16b257285ce9951ac2d6c9277c2683d963e381c79a37ff0bfb493e59",
+      "bytes": 186
+    },
+    "results/paper/model_RMSE_ratios.csv": {
+      "sha256": "cddb1c6ccbeadee542c3d694cfcca53fc0386e94f53362d7bdef8b6499678dc1",
+      "bytes": 128
+    },
+    "results/paper/random_mirror_by_radius.csv": {
+      "sha256": "0a194ee70b53378bf16d0bd6befa6532c83bffacdebf85e33212e8c88b863f20",
+      "bytes": 203
+    },
+    "results/paper/repair_subsets.json": {
+      "sha256": "20396dd0539a4bc464eb302b2e47d5ab6af8e321d091078e6da450abd41298c4",
+      "bytes": 4438
+    },
+    "results/paper/replication.csv": {
+      "sha256": "2f8352f54b357f9b62fd9f6e23b2adb5ccbbfb05310d13b1b11ef6f57e434d31",
+      "bytes": 532
+    },
+    "results/paper/scale_intervals.csv": {
+      "sha256": "017115d3d258b218571824325d79d8712d1b9247d0ce74e26835568f9e9c3271",
+      "bytes": 340
+    },
+    "assets/structured_evidence.svg": {
+      "sha256": "19aa8363190d4be9e3ca93731b32f69b547fafeffdadfbfb10de95665c74124c",
+      "bytes": 29792
+    },
+    "assets/structured_mechanism.svg": {
+      "sha256": "c6d804ae9464c1d7b36e0923c01a5dc6b367277b73b0f4d2498e9a92fea7769b",
+      "bytes": 13970
+    }
+  },
+  "manuscript_sha256": "a5d2b664e537f8af340693be5bcaf533e64a433da2d7ede48618ae7dca0ff513"
+}

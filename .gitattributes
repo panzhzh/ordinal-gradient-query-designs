@@ -1,0 +1,11 @@
+# Keep source files consistent across platforms.
+* text=auto eol=lf
+
+# Frozen artifacts are verified by byte-level SHA-256 checksums.
+/data/** -text
+/results/paper/** -text
+/assets/** -text
+*.npz binary
+
+# Python's CSV writer uses CRLF in the frozen reference tables.
+*.csv whitespace=cr-at-eol

@@ -1,0 +1,33 @@
+{
+  "pairs": 256,
+  "connected_separation_rate": 1.0,
+  "pair_changes_median": 17.0,
+  "pair_changes_range": [
+    3,
+    37
+  ],
+  "ranking_states_median": 17.0,
+  "ranking_states_range": [
+    4,
+    37
+  ],
+  "truth_angle_median_degrees": 16.684024237508225,
+  "disconnected_lower_bound_median_degrees": 8.342012118754113,
+  "cycle_pair_RMSE_mean_degrees": [
+    5.179576101677709,
+    4.902634402898816
+  ],
+  "cycle_pair_RMSE_median_degrees": [
+    4.636017121551861,
+    4.382540082467466
+  ],
+  "two_cycle_pair_RMSE_mean_degrees": [
+    11.68770700586952,
+    11.688073954197357
+  ],
+  "two_cycle_pair_RMSE_median_degrees": [
+    11.882624734614708,
+    11.708990869618301
+  ],
+  "cycle_VC_below_disconnected_bound_rate": 0.83203125
+}
